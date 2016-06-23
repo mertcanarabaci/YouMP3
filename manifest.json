@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "YouMP3 - Youtube to MP3",
+	"short_name": "YouMP3",
+	"version": "1.0",
+	"description": "Every video can download in the form of mp3 on Youtube.",
+	"icons": {  "16": "16.fw.png",
+				"48": "48.fw.png",
+				"128": "128.fw.png" },			
+	"browser_action": {			
+	"default_title": "YouMP3 - Youtube to MP3",
+    "default_popup": "popup.html" },
+	"author": "Mert Can Arabaci",
+	"permissions": [
+    "activeTab",
+	"downloads",
+	"http://*.yt-downloader.org/", "http://*/", "https://*/"
+	]
+}
